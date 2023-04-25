@@ -384,7 +384,7 @@ pub async fn message_set_up(
         time,
         "Comparison time",
         collect_window_end,
-        "Comparison countdown (seconds)",
+        "Comparison coun55tdown (seconds)",
         max(0, time - collect_window_end.unwrap_or_default()),
     );
 
